@@ -4,6 +4,8 @@ Python is a dynamically typed programming language designed by Guido van Rossum.
 
 # python学习记录
 
+**<font color=blue>所有示例在python3.7 notebook 6.0.0中测试通过</font>**
+
 - python基础
 - pandas学习
 - numpy学习
