@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Response>
+    <SenderID>65A4BA0D-8B60-4F55-A929-8F8A7D988BD5</SenderID>
+    <Method>
+        <Name>Query_PEXPRESS</Name>
+        <Security Algorithm=""></Security>
+        <Items>
+            <Item>
+                <Name>ResultInfo</Name>
+                <Value Type="Fields">
+                    <Data type="string">GOODS</Data>
+                    <Data type="string">S_COUNTRY</Data>
+                    <Data
+                            type="string">S_CSN
+                    </Data>
+                    <Data type="string">S_HOUSEHOLDS</Data>
+                    <Data
+                            type="string">S_PROVINCE
+                    </Data>
+                    <Data type="string">S_CITY</Data>
+                    <Data
+                            type="string">S_NATION
+                    </Data>
+                    <Data type="string">S_SEX</Data>
+                    <Data
+                            type="string">G_COUNTRY
+                    </Data>
+                    <Data type="string">G_CSN</Data>
+                    <Data
+                            type="string">G_HOUSEHOLDS
+                    </Data>
+                    <Data type="string">G_PROVINCE</Data>
+                    <Data
+                            type="string">G_CITY
+                    </Data>
+                    <Data type="string">G_NATION</Data>
+                    <Data
+                            type="string">G_SEX
+                    </Data>
+                    <Data type="string">PROVINCE</Data>
+                    <Data
+                            type="string">CITY
+                    </Data>
+                    <Data type="string">DISTRICT</Data>
+                    <Data
+                            type="string">G_GPSADDRESS
+                    </Data>
+                    <Data type="string">G_SID</Data>
+                    <Data
+                            type="string">G_ADDRESS
+                    </Data>
+                    <Data type="date">CREATEDTIME</Data>
+                    <Data
+                            type="date">GZDB_ADDTIME
+                    </Data>
+                    <Data type="string">ITEMID</Data>
+                    <Data
+                            type="string">S_NAME
+                    </Data>
+                    <Data type="string">S_SID</Data>
+                    <Data type="string">S_TEL</Data>
+                    <Data
+                            type="string">S_ADDRESS
+                    </Data>
+                    <Data type="double">S_LAT</Data>
+                    <Data
+                            type="double">S_LON
+                    </Data>
+                    <Data type="string">G_NAME</Data>
+                    <Data
+                            type="string">GCOUNT
+                    </Data>
+                    <Data type="string">EXPRESS_SN</Data>
+                    <Data
+                            type="string">COID
+                    </Data>
+                    <Data type="string">CONAME</Data>
+                    <Data
+                            type="string">COADDRESS
+                    </Data>
+                    <Data type="string">EBOYID</Data>
+                    <Data
+                            type="double">G_LON
+                    </Data>
+                    <Data type="string">EBOY</Data>
+                    <Data type="string">EBOYTEL</Data>
+                    <Data
+                            type="string">OPENPIC
+                    </Data>
+                    <Data type="date">TDAY</Data>
+                    <Data type="date">CJSJ</Data>
+                    <Data
+                            type="date">RKSJ
+                    </Data>
+                    <Data type="string">STREE_ID</Data>
+                    <Data
+                            type="string">POLCE_STATION_ID
+                    </Data>
+                    <Data type="string">COMMUNITY_ID</Data>
+                    <Data
+                            type="string">G_TEL
+                    </Data>
+                    <Data type="double">G_LAT</Data>
+                </Value>
+            </Item>
+            <Item>
+                <Name>Result</Name>
+                <Value Type="Records">
+                    <Records>
+                        <Record>
+                            <Data>文具</Data>
+                            <Data>null</Data>
+                            <Data>null</Data>
+                            <Data>null</Data>
+                            <Data>null</Data>
+                            <Data>null</Data>
+                            <Data>null</Data>
+                            <Data>null</Data>
+                            <Data>null</Data>
+                            <Data>null</Data>
+                            <Data>null</Data>
+                            <Data>null</Data>
+                            <Data>null</Data>
+                            <Data>null</Data>
+                            <Data>null</Data>
+                            <Data>null</Data>
+                            <Data>null</Data>
+                            <Data>null</Data>
+                            <Data>null</Data>
+                            <Data>null</Data>
+                            <Data>null</Data>
+                            <Data>2018-03-09
+                                09:05:53.0
+                            </Data>
+                            <Data>2018-11-20
+                                19:32:30.0
+                            </Data>
+                            <Data>292dbf0a777f481ab0397f30a77af564</Data>
+                            <Data>周正生</Data>
+                            <Data>3410000000000000000000</Data>
+                            <Data>13666666808</Data>
+                            <Data>null</Data>
+                            <Data>23.289423</Data>
+                            <Data>113.330938</Data>
+                            <Data>吴雄光</Data>
+                            <Data>10</Data>
+                            <Data>A9125</Data>
+                            <Data>71B1D1F8-B508-49FC-8DF6-37067E26FAE3</Data>
+                            <Data>长通物流</Data>
+                            <Data>白云区增槎路1133号西盈物流园2323档</Data>
+                            <Data>D031C339-2232-4845-AE63-ED00CF65CCB3</Data>
+                            <Data>0</Data>
+                            <Data>周学忠</Data>
+                            <Data>13588888888</Data>
+                            <Data>null</Data>
+                            <Data>2017-09-12
+                                00:00:00.0
+                            </Data>
+                            <Data>2017-09-12 08:48:54.0</Data>
+                            <Data>2017-09-12
+                                08:50:07.0
+                            </Data>
+                            <Data>440111003</Data>
+                            <Data>440111570000</Data>
+                            <Data>440111003010</Data>
+                            <Data>13907918121</Data>
+                            <Data>0</Data>
+                        </Record>
+                    </Records>
+                </Value>
+            </Item>
+            <Item>
+                <Name>Total</Name>
+                <Value>98477566</Value>
+            </Item>
+        </Items>
+    </Method>
+</Response>

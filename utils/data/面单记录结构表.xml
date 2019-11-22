@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Response>
+	<SenderID>65A4BA0D-8B60-4F55-A929-8F8A7D988BD5</SenderID>
+	<ServiceID>GZSVR_JCKZY_01012200010</ServiceID>
+	<Method>
+		<Name>Query_PEXPRESS</Name>
+		<Security Algorithm=""></Security>
+		<Items>
+			<Item>
+				<Name>ID</Name>
+				<Value type="String"><Data>6374</Data></Value>
+			</Item>
+			<Item>
+				<Name>Type</Name>
+				<Value type="String"><Data>ATTR</Data></Value>
+			</Item>
+			<Item>
+				<Name>ResourceCode</Name>
+				<Value><Data>01012200022</Data></Value>
+			</Item>
+			<Item>
+				<Name>ENNAME</Name>
+				<Value type="String"><Data>PEXPRESS</Data></Value>
+			</Item>
+			<Item>
+				<Name>DispName</Name>
+				<Value type="String"><Data>面单记录表</Data></Value>
+			</Item>
+			<Item>
+				<Name>Description</Name>
+				<Value type="String"><Data></Data></Value>
+			</Item>
+			<Item>
+				<Name>Fields</Name>
+				<Value type="object">
+					<Fields>
+						<Field type="string" prec="01012200010" scale="0" length="500" DECODE="DE00857" DQCODE=""
+							DICCODE="" CHNAME="物品名" CanQuery="0" extParam="空">GOODS</Field>
+						<Field type="string" prec="01012200010" scale="0" length="128" DECODE="" DQCODE="" DICCODE=""
+							CHNAME="寄件人国家" CanQuery="0" extParam="空">S_COUNTRY</Field>
+						<Field type="string" prec="01012200010" scale="0" length="64" DECODE="DE00017" DQCODE=""
+							DICCODE="" CHNAME="寄件人国籍识别码" CanQuery="0" extParam="空">S_CSN</Field>
+						<Field type="string" prec="01012200010" scale="0" length="500" DECODE="DE00075" DQCODE=""
+							DICCODE="" CHNAME="寄件人户籍地址" CanQuery="0" extParam="空">S_HOUSEHOLDS</Field>
+						<Field type="string" prec="01012200010" scale="0" length="128" DECODE="DE00619" DQCODE=""
+							DICCODE="" CHNAME="寄件人省" CanQuery="0" extParam="空">S_PROVINCE</Field>
+						<Field type="string" prec="01012200010" scale="0" length="128" DECODE="" DQCODE="" DICCODE=""
+							CHNAME="寄件人市" CanQuery="0" extParam="空">S_CITY</Field>
+						<Field type="string" prec="01012200010" scale="0" length="128" DECODE="DE00581" DQCODE=""
+							DICCODE="" CHNAME="寄件人民族" CanQuery="0" extParam="空">S_NATION</Field>
+						<Field type="string" prec="01012200010" scale="0" length="64" DECODE="DE00583" DQCODE=""
+							DICCODE="" CHNAME="寄件人性别" CanQuery="0" extParam="空">S_SEX</Field>
+						<Field type="string" prec="01012200010" scale="0" length="128" DECODE="" DQCODE="" DICCODE=""
+							CHNAME="收件人国籍" CanQuery="0" extParam="空">G_COUNTRY</Field>
+						<Field type="string" prec="01012200010" scale="0" length="64" DECODE="DE00017" DQCODE=""
+							DICCODE="" CHNAME="收件人国籍识别码" CanQuery="0" extParam="空">G_CSN</Field>
+						<Field type="string" prec="01012200010" scale="0" length="500" DECODE="DE00075" DQCODE=""
+							DICCODE="" CHNAME="收件人户籍地址" CanQuery="0" extParam="空">G_HOUSEHOLDS</Field>
+						<Field type="string" prec="01012200010" scale="0" length="128" DECODE="" DQCODE="" DICCODE=""
+							CHNAME="收件人省" CanQuery="0" extParam="空">G_PROVINCE</Field>
+						<Field type="string" prec="01012200010" scale="0" length="128" DECODE="DE00070" DQCODE=""
+							DICCODE="" CHNAME="收件人市" CanQuery="0" extParam="空">G_CITY</Field>
+						<Field type="string" prec="01012200010" scale="0" length="128" DECODE="DE00581" DQCODE=""
+							DICCODE="" CHNAME="收件人民族" CanQuery="0" extParam="空">G_NATION</Field>
+						<Field type="string" prec="01012200010" scale="0" length="64" DECODE="DE00583" DQCODE=""
+							DICCODE="" CHNAME="收件人性别" CanQuery="0" extParam="空">G_SEX</Field>
+						<Field type="string" prec="01012200010" scale="0" length="128" DECODE="DE00619" DQCODE=""
+							DICCODE="" CHNAME="企业所在省" CanQuery="0" extParam="空">PROVINCE</Field>
+						<Field type="string" prec="01012200010" scale="0" length="128" DECODE="DE00619" DQCODE=""
+							DICCODE="" CHNAME="企业所在市" CanQuery="0" extParam="空">CITY</Field>
+						<Field type="string" prec="01012200010" scale="0" length="128" DECODE="" DQCODE="" DICCODE=""
+							CHNAME="企业所在区" CanQuery="0" extParam="空">DISTRICT</Field>
+						<Field type="string" prec="01012200010" scale="0" length="500" DECODE="DE00075" DQCODE=""
+							DICCODE="" CHNAME="收件人地址" CanQuery="0" extParam="空">G_GPSADDRESS</Field>
+						<Field type="string" prec="01012200010" scale="0" length="500" DECODE="DE00001" DQCODE=""
+							DICCODE="" CHNAME="收件人身份证" CanQuery="1" extParam="空">G_SID</Field>
+						<Field type="string" prec="01012200010" scale="0" length="500" DECODE="DE00075" DQCODE=""
+							DICCODE="" CHNAME="收件人地址" CanQuery="0" extParam="空">G_ADDRESS</Field>
+						<Field type="date" prec="01012200010" scale="0" length="0" DECODE="DE00668" DQCODE="" DICCODE=""
+							CHNAME="创建时间" CanQuery="0" extParam="空">CREATEDTIME</Field>
+						<Field type="date" prec="01012200010" scale="0" length="0" DECODE="DE01080" DQCODE="" DICCODE=""
+							CHNAME="数据入库时间" CanQuery="0" extParam="空">GZDB_ADDTIME</Field>
+						<Field type="string" prec="01012200010" scale="0" length="128" DECODE="DE01115" DQCODE=""
+							DICCODE="" CHNAME="主键" CanQuery="0" extParam="空">ITEMID</Field>
+						<Field type="string" prec="01012200010" scale="0" length="500" DECODE="DE00002" DQCODE=""
+							DICCODE="" CHNAME="发件人姓名" CanQuery="1" extParam="空">S_NAME</Field>
+						<Field type="string" prec="01012200010" scale="0" length="500" DECODE="DE00618" DQCODE=""
+							DICCODE="" CHNAME="发件人证件号码" CanQuery="1" extParam="空">S_SID</Field>
+						<Field type="string" prec="01012200010" scale="0" length="500" DECODE="DE00215" DQCODE=""
+							DICCODE="" CHNAME="发件人手机号码" CanQuery="1" extParam="空">S_TEL</Field>
+						<Field type="string" prec="01012200010" scale="0" length="500" DECODE="DE00075" DQCODE=""
+							DICCODE="" CHNAME="发件人地址" CanQuery="0" extParam="空">S_ADDRESS</Field>
+						<Field type="double" prec="01012200010" scale="15" length="38" DECODE="GDDE01794" DQCODE=""
+							DICCODE="" CHNAME="发件人x（精度）坐标" CanQuery="0" extParam="空">S_LAT</Field>
+						<Field type="double" prec="01012200010" scale="15" length="38" DECODE="DE01120" DQCODE=""
+							DICCODE="" CHNAME="发件人y（纬度）坐标" CanQuery="0" extParam="空">S_LON</Field>
+						<Field type="string" prec="01012200010" scale="0" length="500" DECODE="DE00002" DQCODE=""
+							DICCODE="" CHNAME="收件人姓名" CanQuery="1" extParam="空">G_NAME</Field>
+						<Field type="string" prec="01012200010" scale="0" length="500" DECODE="DE01182" DQCODE=""
+							DICCODE="" CHNAME="物品数量" CanQuery="0" extParam="空">GCOUNT</Field>
+						<Field type="string" prec="01012200010" scale="0" length="500" DECODE="DE00291" DQCODE=""
+							DICCODE="" CHNAME="单号" CanQuery="1" extParam="空">EXPRESS_SN</Field>
+						<Field type="string" prec="01012200010" scale="0" length="500" DECODE="" DQCODE="" DICCODE=""
+							CHNAME="公司id" CanQuery="0" extParam="空">COID</Field>
+						<Field type="string" prec="01012200010" scale="0" length="500" DECODE="DE00065" DQCODE=""
+							DICCODE="" CHNAME="公司名" CanQuery="0" extParam="空">CONAME</Field>
+						<Field type="string" prec="01012200010" scale="0" length="500" DECODE="DE00075" DQCODE=""
+							DICCODE="" CHNAME="公司地址" CanQuery="0" extParam="空">COADDRESS</Field>
+						<Field type="string" prec="01012200010" scale="0" length="500" DECODE="" DQCODE="" DICCODE=""
+							CHNAME="快递员id" CanQuery="0" extParam="空">EBOYID</Field>
+						<Field type="double" prec="01012200010" scale="15" length="38" DECODE="DE01119" DQCODE=""
+							DICCODE="" CHNAME="收件人经度坐标" CanQuery="0" extParam="空">G_LON</Field>
+						<Field type="string" prec="01012200010" scale="0" length="500" DECODE="DE00002" DQCODE=""
+							DICCODE="" CHNAME="快递员姓名" CanQuery="0" extParam="空">EBOY</Field>
+						<Field type="string" prec="01012200010" scale="0" length="500" DECODE="DE00216" DQCODE=""
+							DICCODE="" CHNAME="快递员电话" CanQuery="0" extParam="空">EBOYTEL</Field>
+						<Field type="binary" prec="01012200010" scale="0" length="0" DECODE="DE00858" DQCODE=""
+							DICCODE="" CHNAME="开箱图片（未存）" CanQuery="0" extParam="空">OPENPIC</Field>
+						<Field type="date" prec="01012200010" scale="0" length="0" DECODE="DE00101" DQCODE="" DICCODE=""
+							CHNAME="采集日期" CanQuery="0" extParam="空">TDAY</Field>
+						<Field type="date" prec="01012200010" scale="0" length="0" DECODE="DE00668" DQCODE="" DICCODE=""
+							CHNAME="采集时间" CanQuery="0" extParam="空">CJSJ</Field>
+						<Field type="date" prec="01012200010" scale="0" length="0" DECODE="DE01080" DQCODE="" DICCODE=""
+							CHNAME="入库时间" CanQuery="0" extParam="空">RKSJ</Field>
+						<Field type="string" prec="01012200010" scale="0" length="500" DECODE="DE00072" DQCODE=""
+							DICCODE="" CHNAME="企业所在街道" CanQuery="0" extParam="空">STREE_ID</Field>
+						<Field type="string" prec="01012200010" scale="0" length="500" DECODE="DE00060" DQCODE=""
+							DICCODE="" CHNAME="企业所在派出所" CanQuery="0" extParam="空">POLCE_STATION_ID</Field>
+						<Field type="string" prec="01012200010" scale="0" length="500" DECODE="DE00636" DQCODE=""
+							DICCODE="" CHNAME="企业所在社区" CanQuery="0" extParam="空">COMMUNITY_ID</Field>
+						<Field type="string" prec="01012200010" scale="0" length="500" DECODE="DE00216" DQCODE=""
+							DICCODE="" CHNAME="收件人电话" CanQuery="1" extParam="空">G_TEL</Field>
+						<Field type="double" prec="01012200010" scale="15" length="38" DECODE="DE01120" DQCODE=""
+							DICCODE="" CHNAME="收件人纬度坐标" CanQuery="0" extParam="空">G_LAT</Field>
+					</Fields>
+				</Value>
+			</Item>
+		</Items>
+	</Method>
+</Response>
