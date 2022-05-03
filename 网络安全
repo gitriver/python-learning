@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-01T03:56:10.443Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36" etag="0UbAe1vyTn4yTw9hgg_y" version="17.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-03T05:21:46.907Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36" etag="MeiFSIXrkcG95QkgFjvA" version="17.5.0" type="github" pages="2">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="865" dy="485" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="548" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,7 +10,7 @@
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
           <mxGeometry x="45" y="70" width="10" height="369" as="geometry" />
         </mxCell>
-        <mxCell id="X96rkeMv-YxwQiSetTqz-12" value="&lt;font color=&quot;#cc0000&quot;&gt;认证CA证书，如果认证不通过，则弹出证书不安全提示&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontColor=#0000FF;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-1">
+        <mxCell id="X96rkeMv-YxwQiSetTqz-12" value="&lt;font color=&quot;#cc0000&quot;&gt;认证CA证书，如果认证不通过，则弹出证书不安全提示&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontColor=#0000FF;" parent="3nuBFxr9cyL0pnOWT2aG-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="53" y="227" as="sourcePoint" />
             <Array as="points">
@@ -37,52 +37,141 @@
             <mxPoint x="180" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="X96rkeMv-YxwQiSetTqz-1" value="4. Certificate Status" style="verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;shadow=0;strokeWidth=1;fillColor=#008a00;strokeColor=#005700;" edge="1" parent="1">
+        <mxCell id="X96rkeMv-YxwQiSetTqz-1" value="4. Certificate Status" style="verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;shadow=0;strokeWidth=1;fillColor=#008a00;strokeColor=#005700;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="494" y="247" as="sourcePoint" />
             <mxPoint x="179" y="247" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="X96rkeMv-YxwQiSetTqz-2" value="5. Server Key Exchange 【发送公钥】" style="verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;shadow=0;strokeWidth=1;fillColor=#008a00;strokeColor=#005700;" edge="1" parent="1">
+        <mxCell id="X96rkeMv-YxwQiSetTqz-2" value="5. Server Key Exchange 【发送公钥】" style="verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;shadow=0;strokeWidth=1;fillColor=#008a00;strokeColor=#005700;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="493" y="269" as="sourcePoint" />
             <mxPoint x="178" y="269" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="X96rkeMv-YxwQiSetTqz-3" value="6. Server Hello Done" style="verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;shadow=0;strokeWidth=1;fillColor=#008a00;strokeColor=#005700;" edge="1" parent="1">
+        <mxCell id="X96rkeMv-YxwQiSetTqz-3" value="6. Server Hello Done" style="verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;shadow=0;strokeWidth=1;fillColor=#008a00;strokeColor=#005700;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="492" y="291" as="sourcePoint" />
             <mxPoint x="177" y="291" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="X96rkeMv-YxwQiSetTqz-4" value="3. Certificate 证书信息" style="verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;shadow=0;strokeWidth=1;fillColor=#008a00;strokeColor=#005700;" edge="1" parent="1">
+        <mxCell id="X96rkeMv-YxwQiSetTqz-4" value="3. Certificate 证书信息" style="verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;shadow=0;strokeWidth=1;fillColor=#008a00;strokeColor=#005700;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="493" y="223" as="sourcePoint" />
             <mxPoint x="178" y="223" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="X96rkeMv-YxwQiSetTqz-5" value="7 Client Key Exchange 【发送预主密钥】, &#xa;Change Ciper Spec,&#xa;Encrypted Handshake Message&#xa;（公钥加密后的  预主密钥 【随机数3】）" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1">
+        <mxCell id="X96rkeMv-YxwQiSetTqz-5" value="7 Client Key Exchange 【发送预主密钥】, &#xa;Change Ciper Spec,&#xa;Encrypted Handshake Message&#xa;（公钥加密后的  预主密钥 【随机数3】）" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;fillColor=#1ba1e2;strokeColor=#006EAF;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="176" y="393.00000000000045" as="sourcePoint" />
             <mxPoint x="496" y="393.00000000000045" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="X96rkeMv-YxwQiSetTqz-6" value="8. New Session Ticket,&#xa;Change Cipher Spec &#xa;Encrypted Handshake Message" style="verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;shadow=0;strokeWidth=1;fillColor=#008a00;strokeColor=#005700;" edge="1" parent="1">
+        <mxCell id="X96rkeMv-YxwQiSetTqz-6" value="8. New Session Ticket,&#xa;Change Cipher Spec &#xa;Encrypted Handshake Message" style="verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;shadow=0;strokeWidth=1;fillColor=#008a00;strokeColor=#005700;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="493" y="443" as="sourcePoint" />
             <mxPoint x="178" y="443" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="X96rkeMv-YxwQiSetTqz-7" value="......&#xa;后续采用对称加密 传输数据 " style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#0000FF;" edge="1" parent="1">
+        <mxCell id="X96rkeMv-YxwQiSetTqz-7" value="......&#xa;后续采用对称加密 传输数据 " style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#0000FF;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="177.0000000000001" y="491.00000000000045" as="sourcePoint" />
             <mxPoint x="497" y="491.00000000000045" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="X96rkeMv-YxwQiSetTqz-8" value="" style="verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;shadow=0;strokeWidth=1;fillColor=#008a00;strokeColor=#005700;" edge="1" parent="1">
+        <mxCell id="X96rkeMv-YxwQiSetTqz-8" value="" style="verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;shadow=0;strokeWidth=1;fillColor=#008a00;strokeColor=#005700;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="492" y="503" as="sourcePoint" />
             <mxPoint x="177" y="503" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="dDXLnDIDMlXIPd4TQTFl" name="Page-2">
+    <mxGraphModel dx="865" dy="457" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JzrpeoS1DyY5In2C1RfW-1" value=": WEB前端&#xa;如Vue" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="120" y="80" width="100" height="439" as="geometry" />
+        </mxCell>
+        <mxCell id="JzrpeoS1DyY5In2C1RfW-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="JzrpeoS1DyY5In2C1RfW-1">
+          <mxGeometry x="45" y="70" width="10" height="369" as="geometry" />
+        </mxCell>
+        <mxCell id="JzrpeoS1DyY5In2C1RfW-4" value=":Web Server&#xa;如Tomcat" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="450" y="70" width="100" height="441" as="geometry" />
+        </mxCell>
+        <mxCell id="JzrpeoS1DyY5In2C1RfW-5" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="JzrpeoS1DyY5In2C1RfW-4">
+          <mxGeometry x="45" y="80" width="10" height="361" as="geometry" />
+        </mxCell>
+        <mxCell id="w-kv396jZH2R6bxmsxN8-1" value="&lt;font color=&quot;#cc0000&quot;&gt;2 与数据库中的用户信息进行校验&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontColor=#0000FF;" edge="1" parent="JzrpeoS1DyY5In2C1RfW-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="56" y="103" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="86" y="103" />
+            </Array>
+            <mxPoint x="61" y="122.99999999999989" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JzrpeoS1DyY5In2C1RfW-6" value="1 携带用户名、密码访问登录接口" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="175" y="160.00000000000045" as="sourcePoint" />
+            <mxPoint x="495" y="160.00000000000045" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JzrpeoS1DyY5In2C1RfW-7" value="4 把JWT响应给WEB前端" style="verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;shadow=0;strokeWidth=1;fillColor=#008a00;strokeColor=#005700;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="493" y="276" as="sourcePoint" />
+            <mxPoint x="178" y="276" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w-kv396jZH2R6bxmsxN8-2" value="&lt;font color=&quot;#cc0000&quot;&gt;3 如果正确，使用用户名/用户ID,产生一个JWT&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontColor=#0000FF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="506" y="211" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="536" y="211" />
+            </Array>
+            <mxPoint x="511" y="230.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w-kv396jZH2R6bxmsxN8-3" value="登录后访问其它资源，&#xa;需要在请求header中携带token" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="177" y="337.00000000000045" as="sourcePoint" />
+            <mxPoint x="497" y="337.00000000000045" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w-kv396jZH2R6bxmsxN8-4" value="&lt;font color=&quot;#cc0000&quot;&gt;&amp;nbsp;获取请求header中的tocken并进行解析&lt;br&gt;获取userID&lt;br&gt;&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontColor=#0000FF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="506" y="350" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="536" y="350" />
+            </Array>
+            <mxPoint x="511" y="369.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w-kv396jZH2R6bxmsxN8-5" value="&lt;font color=&quot;#cc0000&quot;&gt;根据userID获取用户相关信息，如果有权限&lt;br&gt;则允许访问相关资源&lt;br&gt;&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontColor=#0000FF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="506" y="388" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="536" y="388" />
+            </Array>
+            <mxPoint x="511" y="407.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w-kv396jZH2R6bxmsxN8-6" value="&lt;font color=&quot;#cc0000&quot;&gt;访问目标资源，响应给WEB前端&lt;br&gt;&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontColor=#0000FF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="507" y="428" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="537" y="428" />
+            </Array>
+            <mxPoint x="512" y="447.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w-kv396jZH2R6bxmsxN8-7" value="响应信息" style="verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;shadow=0;strokeWidth=1;fillColor=#008a00;strokeColor=#005700;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="494" y="460" as="sourcePoint" />
+            <mxPoint x="179" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
