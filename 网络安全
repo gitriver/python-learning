@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-03T10:59:32.595Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36" etag="vgsOaoQXLlOf755f5AHN" version="17.5.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-05-03T11:12:46.624Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36" etag="3n3_sS1zdoDjXuxBdChe" version="17.5.0" type="github" pages="4">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1038" dy="548" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -225,7 +225,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="BOC8MFKZwTmT1UX2Xa-X" name="Page-4">
-    <mxGraphModel dx="1004" dy="548" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1871" dy="1045" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -233,30 +233,30 @@
           <mxGeometry x="51" y="51" width="247" height="459" as="geometry" />
         </mxCell>
         <mxCell id="XJgzAeSLodn1xJ49AxOf-1" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=none;fillColor=#b0e3e6;" vertex="1" parent="qx-ouWaRsl94HF9XVFJ6-8">
-          <mxGeometry x="109.5" y="72" width="26" height="362" as="geometry" />
+          <mxGeometry x="109.5" y="59" width="26" height="375" as="geometry" />
         </mxCell>
         <mxCell id="qx-ouWaRsl94HF9XVFJ6-9" value="1 提交用户名、密码" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;fontFamily=Comic Sans MS;fontSize=13;fontColor=#3333FF;" edge="1" parent="qx-ouWaRsl94HF9XVFJ6-8">
           <mxGeometry width="60" relative="1" as="geometry">
-            <mxPoint x="-19" y="97" as="sourcePoint" />
-            <mxPoint x="107" y="97" as="targetPoint" />
+            <mxPoint x="-19" y="82" as="sourcePoint" />
+            <mxPoint x="107" y="82" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fj_O8eRjLWnETaSnBwMR-1" value="&lt;font color=&quot;#3333ff&quot;&gt;2&amp;nbsp;封装Authentication对象&lt;br&gt;【只有用户名和密码，没有权限信息】&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontColor=#0000FF;" edge="1" parent="qx-ouWaRsl94HF9XVFJ6-8">
+        <mxCell id="Fj_O8eRjLWnETaSnBwMR-1" value="&lt;font color=&quot;#3333ff&quot;&gt;2&amp;nbsp;封装Authentication对象&lt;br&gt;【只有用户名和密码，没有权限信息】&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontColor=#0000FF;strokeColor=#00FF00;" edge="1" parent="qx-ouWaRsl94HF9XVFJ6-8">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="140" y="84" as="sourcePoint" />
+            <mxPoint x="140" y="95" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="170" y="84" />
+              <mxPoint x="170" y="95" />
             </Array>
-            <mxPoint x="145" y="103.99999999999989" as="targetPoint" />
+            <mxPoint x="145" y="114.99999999999989" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Fj_O8eRjLWnETaSnBwMR-8" value="3 调用authenticate&lt;br&gt;方法进行认证" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontFamily=Comic Sans MS;fontSize=13;fontColor=#3333FF;entryX=0;entryY=0.5;entryDx=0;entryDy=0;align=left;" edge="1" parent="qx-ouWaRsl94HF9XVFJ6-8">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="134" y="161" as="sourcePoint" />
-            <mxPoint x="460.5" y="157.5" as="targetPoint" />
+            <mxPoint x="134" y="172" as="sourcePoint" />
+            <mxPoint x="460.5" y="168.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fj_O8eRjLWnETaSnBwMR-21" value="&lt;font color=&quot;#3333ff&quot;&gt;如果返回了Authenticationi对象，&lt;br&gt;使用SecurityContextHolder.getContext().setAuthenticaion方法存储此对象。&lt;br&gt;其它过滤器会通过SecurityContextHolder来获取当前用户信息&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontColor=#0000FF;" edge="1" parent="qx-ouWaRsl94HF9XVFJ6-8">
+        <mxCell id="Fj_O8eRjLWnETaSnBwMR-21" value="&lt;font color=&quot;#3333ff&quot;&gt;如果返回了Authenticationi对象，&lt;br&gt;使用SecurityContextHolder.getContext().setAuthenticaion方法存储此对象。&lt;br&gt;其它过滤器会通过SecurityContextHolder来获取当前用户信息&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontColor=#0000FF;strokeColor=#00FF00;" edge="1" parent="qx-ouWaRsl94HF9XVFJ6-8">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="135.5" y="401" as="sourcePoint" />
             <Array as="points">
@@ -272,33 +272,33 @@
           <mxGeometry x="78.5" y="102" width="26" height="121" as="geometry" />
         </mxCell>
         <mxCell id="Fj_O8eRjLWnETaSnBwMR-9" value="&lt;div style=&quot;font-size: 13px&quot;&gt;DaoAuthenticationProvider&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=13;fillColor=#cdeb8b;strokeColor=#36393d;fontColor=#3333FF;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="735" y="51" width="183" height="469" as="geometry" />
+          <mxGeometry x="648" y="51" width="388" height="469" as="geometry" />
         </mxCell>
         <mxCell id="Fj_O8eRjLWnETaSnBwMR-10" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=none;fillColor=#b0e3e6;" vertex="1" parent="Fj_O8eRjLWnETaSnBwMR-9">
-          <mxGeometry x="82" y="167" width="26" height="206" as="geometry" />
+          <mxGeometry x="181" y="167" width="26" height="206" as="geometry" />
         </mxCell>
-        <mxCell id="Fj_O8eRjLWnETaSnBwMR-11" value="&lt;font color=&quot;#3333ff&quot;&gt;8&amp;nbsp;通过PasswordEncoder对比&lt;br&gt;UserDetails中的密码与Authentication中的密码&lt;br&gt;是否匹配【调用matches方法】&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontColor=#0000FF;" edge="1" parent="Fj_O8eRjLWnETaSnBwMR-9">
+        <mxCell id="Fj_O8eRjLWnETaSnBwMR-11" value="&lt;font color=&quot;#3333ff&quot;&gt;8&amp;nbsp;通过PasswordEncoder对比&lt;br&gt;UserDetails中的密码与Authentication中的密码&lt;br&gt;是否匹配【调用matches方法】&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontColor=#0000FF;strokeColor=#00FF00;" edge="1" parent="Fj_O8eRjLWnETaSnBwMR-9">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="108" y="282" as="sourcePoint" />
+            <mxPoint x="205" y="292" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="138" y="282" />
+              <mxPoint x="235" y="292" />
             </Array>
-            <mxPoint x="113" y="301.9999999999999" as="targetPoint" />
+            <mxPoint x="210" y="311.9999999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fj_O8eRjLWnETaSnBwMR-17" value="&lt;font color=&quot;#3333ff&quot;&gt;9 如果匹配，就是UserDetails中的权限信息&lt;br&gt;设置到Authenticaion对象中&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontColor=#0000FF;" edge="1" parent="Fj_O8eRjLWnETaSnBwMR-9">
+        <mxCell id="Fj_O8eRjLWnETaSnBwMR-17" value="&lt;font color=&quot;#3333ff&quot;&gt;9 如果匹配，就是UserDetails中的权限信息&lt;br&gt;设置到Authenticaion对象中&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontColor=#0000FF;strokeColor=#00FF00;" edge="1" parent="Fj_O8eRjLWnETaSnBwMR-9">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="108" y="328" as="sourcePoint" />
+            <mxPoint x="205" y="338" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="138" y="328" />
+              <mxPoint x="235" y="338" />
             </Array>
-            <mxPoint x="113" y="347.9999999999999" as="targetPoint" />
+            <mxPoint x="210" y="357.9999999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fj_O8eRjLWnETaSnBwMR-18" value="7&amp;nbsp;返回UserDetails对象" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontFamily=Comic Sans MS;fontSize=13;fontColor=#3333FF;exitX=-0.05;exitY=0.692;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#ffcc99;strokeColor=#CC6600;" edge="1" parent="Fj_O8eRjLWnETaSnBwMR-9" source="Fj_O8eRjLWnETaSnBwMR-13">
+        <mxCell id="Fj_O8eRjLWnETaSnBwMR-18" value="7&amp;nbsp;返回UserDetails对象" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontFamily=Comic Sans MS;fontSize=13;fontColor=#3333FF;exitX=-0.05;exitY=0.692;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#ffcc99;strokeColor=#CC6600;" edge="1" parent="Fj_O8eRjLWnETaSnBwMR-9">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="190" y="258" as="sourcePoint" />
-            <mxPoint x="110" y="258" as="targetPoint" />
+            <mxPoint x="510.1999999999998" y="270.428" as="sourcePoint" />
+            <mxPoint x="207" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Fj_O8eRjLWnETaSnBwMR-12" value="&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot;, monospace; font-size: 13px;&quot;&gt;InMemoryUserDetailsManager&lt;/span&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=13;fillColor=#cdeb8b;strokeColor=#36393d;fontColor=#3333FF;fontStyle=1" vertex="1" parent="1">
@@ -307,23 +307,23 @@
         <mxCell id="Fj_O8eRjLWnETaSnBwMR-13" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=none;fillColor=#b0e3e6;" vertex="1" parent="Fj_O8eRjLWnETaSnBwMR-12">
           <mxGeometry x="94.5" y="183" width="26" height="109" as="geometry" />
         </mxCell>
-        <mxCell id="Fj_O8eRjLWnETaSnBwMR-14" value="&lt;font color=&quot;#3333ff&quot;&gt;&lt;br&gt;6.1 根据用户名查询用户及&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;对应的权限信息&lt;br&gt;6.2&amp;nbsp;把用户及对应的权限信息&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; 封装成UserDetails对象&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontColor=#0000FF;" edge="1" parent="Fj_O8eRjLWnETaSnBwMR-12">
+        <mxCell id="Fj_O8eRjLWnETaSnBwMR-14" value="&lt;font color=&quot;#3333ff&quot;&gt;&lt;br&gt;6.1 根据用户名查询用户及&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;对应的权限信息&lt;br&gt;6.2&amp;nbsp;把用户及对应的权限信息&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; 封装成UserDetails对象&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontColor=#0000FF;strokeColor=#00FF00;" edge="1" parent="Fj_O8eRjLWnETaSnBwMR-12">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="118" y="206" as="sourcePoint" />
+            <mxPoint x="118" y="233" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="140" y="206" />
-              <mxPoint x="140" y="226" />
+              <mxPoint x="140" y="233" />
+              <mxPoint x="140" y="253" />
             </Array>
-            <mxPoint x="123" y="225.9999999999999" as="targetPoint" />
+            <mxPoint x="123" y="252.9999999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Fj_O8eRjLWnETaSnBwMR-15" value="&lt;div style=&quot;text-align: left&quot;&gt;4 调用DaoAuthenticationProvider的&lt;/div&gt;&lt;span&gt;&lt;div style=&quot;text-align: left&quot;&gt;authenticate&lt;span style=&quot;text-align: left&quot;&gt;方法进行认证&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontFamily=Comic Sans MS;fontSize=13;fontColor=#3333FF;exitX=0.981;exitY=0.817;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Fj_O8eRjLWnETaSnBwMR-5">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="539" y="240" as="sourcePoint" />
-            <mxPoint x="819" y="248" as="targetPoint" />
+            <mxPoint x="825" y="252" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fj_O8eRjLWnETaSnBwMR-16" value="&lt;div style=&quot;text-align: left&quot;&gt;5 调用loadUserByUsername&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;查询用户UserDetail&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontFamily=Comic Sans MS;fontSize=13;fontColor=#3333FF;" edge="1" parent="1">
+        <mxCell id="Fj_O8eRjLWnETaSnBwMR-16" value="&lt;div style=&quot;text-align: left&quot;&gt;5 调用loadUserByUsername&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;查询用户UserDetail&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontFamily=Comic Sans MS;fontSize=13;fontColor=#3333FF;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="Fj_O8eRjLWnETaSnBwMR-10">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="843" y="272" as="sourcePoint" />
             <mxPoint x="1151" y="272" as="targetPoint" />
@@ -334,6 +334,24 @@
             <mxPoint x="813.8019999999999" y="416.374" as="sourcePoint" />
             <mxPoint x="183" y="416" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Fj_O8eRjLWnETaSnBwMR-22" value="AbstractAuthenticationProcessingFilter" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4D4D4D;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="46.5" y="14" width="256" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Fj_O8eRjLWnETaSnBwMR-23" value="&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;AuthenticationManager&lt;/pre&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4D4D4D;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="435" y="1" width="174" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Fj_O8eRjLWnETaSnBwMR-24" value="&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;AbstractUserDetailsAuthenticationProvider&lt;/pre&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4D4D4D;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="677" y="-1" width="331" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Fj_O8eRjLWnETaSnBwMR-25" value="&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;UserDetailsManager&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;fontSize=13;fontFamily=Comic Sans MS;fontColor=#4D4D4D;labelBackgroundColor=none;fontStyle=1;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1085.9993830422793" y="-9.001779067095494" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fj_O8eRjLWnETaSnBwMR-26" value="接口" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;labelBackgroundColor=default;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-26" y="14" width="36" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Fj_O8eRjLWnETaSnBwMR-27" value="实现类" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;labelBackgroundColor=default;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-32" y="57" width="49" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
